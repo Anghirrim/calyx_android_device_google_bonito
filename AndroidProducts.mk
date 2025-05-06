@@ -19,11 +19,11 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_sargo.mk \
     $(LOCAL_DIR)/aosp_bonito_hwasan.mk \
     $(LOCAL_DIR)/aosp_sargo_hwasan.mk \
-    $(LOCAL_DIR)/Calyx_bonito.mk \
-    $(LOCAL_DIR)/Calyx_sargo.mk
+    $(LOCAL_DIR)/calyx_bonito.mk \
+    $(LOCAL_DIR)/calyx_sargo.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_bonito-userdebug \
     aosp_sargo-userdebug \
-    Calyx_bonito-userdebug \
-    Calyx_sargo-userdebug
+    calyx_bonito-userdebug \
+    calyx_sargo-userdebug
